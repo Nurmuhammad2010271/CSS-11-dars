@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 45px;
+    border-bottom: 2px solid gray;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.text__box{
+    width: 650px;
+    height: 786px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin: 46px auto;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 66px;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.box2{
+    text-align: center;
+    padding-top: 127px;
+}
+.box2 h1{
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+}
+a{  
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    color: #F0400F;
+    text-decoration: none;
+}
+button{
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    background-color: #F69E86;
+    color: white;
+    margin-top: 40px;
+}
+.div1{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    margin: 30px auto;
+}
+.div2{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    margin: 30px auto;
+}
+.div3{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    margin: 30px auto;
+}
+label{
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 500;
+}
+input{
+    border: none;
+    background-color: transparent;
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 500;
+}
